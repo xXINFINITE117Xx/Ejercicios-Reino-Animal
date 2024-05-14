@@ -18,7 +18,8 @@ public class Programa {
             System.out.println("1. Listar los reinos");
             System.out.println("2. Listar características de un reino");
             System.out.println("3. Listar especies de un reino");
-            System.out.println("4. Salir");
+            System.out.println("4. Mostar Funciones de un reino");
+            System.out.println("5. Salir");
             System.out.print("Ingrese su opción: ");
             int opcion = scanner.nextInt();
 
@@ -35,7 +36,10 @@ public class Programa {
                 case 3:
                     listarEspecies(reinos, scanner);
                     break;
-                case 4:
+                    case 4:
+                        mostrarFunciones(reinos, scanner);
+                        break;
+                case 5:
                     System.out.println("¡Hasta Pronto!");
                     return;
                 default:
@@ -77,6 +81,23 @@ public class Programa {
         }
         if (!encontrado) {
             System.out.println("No se encontró el reino especificado.");
+        }
+    }
+
+    private static void mostrarFunciones(Reino[]reinos, Scanner scanner) {
+        System.out.print("Ingrese el nombre del reino especificado el cual desea ver las funciones: ");
+        String nombreReino = scanner.next();
+        boolean encontrado = false;
+        for (Reino reino : reinos) {
+            if (reino.getNombre().equalsIgnoreCase(nombreReino)) {
+                System.out.println("\nFunciones de " + reino.getNombre() + ":");
+                reino.mostrarFunciones();
+                encontrado = true;
+                break;
+            }
+        }
+        if (!encontrado) {
+            System.out.println("No se encontraron la funciones");
         }
     }
 }

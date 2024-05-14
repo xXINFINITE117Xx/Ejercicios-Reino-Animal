@@ -12,4 +12,6 @@ abstract class Reino {
     public abstract void mostrarCaracteristicas();
 
     public abstract void listarEspecies();
+
+    public abstract void mostrarFunciones();
 }
