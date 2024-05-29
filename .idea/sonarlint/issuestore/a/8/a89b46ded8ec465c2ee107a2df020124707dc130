@@ -1,0 +1,7 @@
+
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²×Ìå8Ù«û‚ú1J$51d22b49-1b6a-4fde-9948-434780cbc605
+“	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š°Åİ8˜Š¼…ú1J$69cb386b-d94c-4917-89d6-afeeee736ebe
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òé©8Ûíú‚ú1J$ce439695-b199-4e96-a228-1d4695b5e160
+•	java:S116"NRename this field "DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èüöšıÿÿÿÿ8Üíú‚ú1J$e7ace739-ce50-4e82-840b-72c060b84fdb
+i
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ8ßíú‚ú1J$d6d7d20c-e985-42d4-af3d-34de7adbf7c3
